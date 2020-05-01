@@ -33,3 +33,9 @@
 2020-05-02 01:12:25-log: wechatgame@1.0.0 enable
 2020-05-02 01:12:25-log: windows@1.0.0 enable
 2020-05-02 01:12:25-log: xiaomi-quick-game@1.0.0 enable
+2020-05-02 01:17:23-warn: 移动资源失败: 目标地址已经存在相同的文件 
+target: db://assets/animation/oneStep.anim
+2020-05-02 01:20:38-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\animation\onestep.anim) saved
+2020-05-02 01:22:05-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\animation\onestep.anim) saved
+2020-05-02 01:22:37-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\animation\onestep.anim) saved
+2020-05-02 01:23:04-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved

@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, systemEvent, SystemEvent,EventMouse ,Vec3,v3} from "cc";
+import { _decorator, Component, Node, systemEvent, SystemEvent,EventMouse ,Vec3,v3, AnimationComponent} from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("playcontroller")
@@ -9,6 +9,8 @@ export class playcontroller extends Component {
     /* use `property` decorator if your want the member to be serializable */
     // @property
     // serializableDummy = 0;
+    @property({type:AnimationComponent})
+
     private _startJump: boolean = false;
     private _jumpStep: number = 0;
     private _curJumpTime: number = 0;
