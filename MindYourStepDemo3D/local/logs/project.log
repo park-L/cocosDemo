@@ -1,144 +1,35 @@
-2020-04-28 21:27:32-log: ui-kit@1.0.0 enable
-2020-04-28 21:27:32-log: ipc@1.0.0 enable
-2020-04-28 21:27:32-log: tester@1.0.0 enable
-2020-04-28 21:27:32-log: preferences@1.0.0 enable
-2020-04-28 21:27:33-log: engine@1.0.0 enable
-2020-04-28 21:27:33-log: asset-db@1.0.0 enable
-2020-04-28 21:27:33-log: console@1.0.0 enable
-2020-04-28 21:27:33-log: scene@1.0.0 enable
-2020-04-28 21:27:33-log: packager@1.0.0 enable
-2020-04-28 21:27:33-log: project-setting@1.0.0 enable
-2020-04-28 21:27:33-log: about@1.0.0 enable
-2020-04-28 21:27:33-log: server@1.0.0 enable
-2020-04-28 21:27:33-log: utils@1.0.0 enable
-2020-04-28 21:27:33-log: profile@1.0.0 enable
-2020-04-28 21:27:33-log: assets@1.0.0 enable
-2020-04-28 21:27:33-log: inspector@1.0.0 enable
-2020-04-28 21:27:33-log: hierarchy@1.0.0 enable
-2020-04-28 21:27:33-log: preview@1.0.0 enable
-2020-04-28 21:27:33-log: animator@1.0.0 enable
-2020-04-28 21:27:34-log: builder@1.0.0 enable
-2020-04-28 21:27:34-log: alipay-mini-game@1.0.0 enable
-2020-04-28 21:27:34-log: android@1.0.0 enable
-2020-04-28 21:27:34-log: baidu-mini-game@1.0.0 enable
-2020-04-28 21:27:34-log: cocos-play@1.0.0 enable
-2020-04-28 21:27:34-log: huawei-mini-game@1.0.0 enable
-2020-04-28 21:27:34-log: ios@1.0.0 enable
-2020-04-28 21:27:34-log: mac@1.0.0 enable
-2020-04-28 21:27:34-log: native@1.0.0 enable
-2020-04-28 21:27:34-log: oppo-mini-game@1.0.0 enable
-2020-04-28 21:27:34-log: vivo-mini-game@1.0.0 enable
-2020-04-28 21:27:34-log: web-desktop@1.0.0 enable
-2020-04-28 21:27:34-log: web-mobile@1.0.0 enable
-2020-04-28 21:27:34-log: wechatgame@1.0.0 enable
-2020-04-28 21:27:34-log: windows@1.0.0 enable
-2020-04-28 21:27:34-log: xiaomi-quick-game@1.0.0 enable
-2020-04-28 21:31:17-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-04-28 21:33:06-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-04-28 21:33:34-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
-2020-04-28 21:40:37-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-04-28 21:40:55-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-04-28 21:41:17-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-04-28 21:47:11-log: Start Quick Compile
-2020-04-28 21:47:12-warn: Browserslist: caniuse-lite is outdated. Please run next command `npm update`
-2020-04-28 21:47:34-log: Profile: get(global, editor/ui-kit.json, num_input.preci)
-2020-04-28 21:47:34-log: Profile: get(global, editor/ui-kit.json, num_input.step)
-2020-04-28 21:47:34-log: Profile: get(global, editor/theme.json, theme)
-2020-04-28 21:47:40-log: Profile: get(project, packages/preview.json, toolbarConfig)
-2020-04-28 21:47:40-log: Profile: get(project, packages/builder.json, projectSetting.modules.includeModules)
-2020-04-28 21:47:40-log: Profile: get(project, packages/preview.json, previewConfig.devices)
-2020-04-28 21:47:40-log: Profile: get(project, packages/preview.json, previewConfig.userDevices)
-2020-04-28 21:47:40-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:47:40-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
-2020-04-28 21:47:40-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:47:40-log: Profile: get(project, packages/engine.json, 3d.renderPipeline)
-2020-04-28 21:47:40-log: Profile: get(project, packages/builder.json, debug-tools)
-2020-04-28 21:47:50-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
-2020-04-28 21:48:05-error: [BABEL] Note: The code generator has deoptimised the styling of D:\COCOS3D\CocosCreator3D_1.0.4\resources\resources\3d\engine\node_modules\@cocos\ammo\builds\node\ammo.cocos.js as it exceeds the max of 500KB.
-2020-04-28 21:48:09-log: Quick Compile: 57690ms
-2020-04-28 21:51:59-log: Profile: get(project, packages/project-setting.json, general.type_check_level)
-2020-04-28 21:51:59-log: Profile: get(local, packages/scene.json, gizmos-infos)
-2020-04-28 21:51:59-log: Profile: set(local, packages/scene.json, gizmos-infos) 
- {
-    "iconGizmoSize": 2,
-    "isGridVisible": true,
-    "isIconGizmo3D": false
-}
-2020-04-28 21:51:59-log: Profile: save(local, packages/scene.json)
-2020-04-28 21:51:59-log: Profile: set(local, packages/hierarchy.json, state) 
- {
-    "animationUuid": "",
-    "assetUuid": "eaa52f27-a8f2-45b1-a0a6-8d5ae7b6545e",
-    "expandLevels": [
-        "0",
-        "0_5"
-    ]
-}
-2020-04-28 21:51:59-log: Profile: save(local, packages/hierarchy.json)
-2020-04-28 21:51:59-log: Profile: set(temp, packages/hierarchy-expand.json, eaa52f27-a8f2-45b1-a0a6-8d5ae7b6545e) 
- [
-    "0",
-    "0_5"
-]
-2020-04-28 21:51:59-log: Profile: save(temp, packages/hierarchy-expand.json)
-2020-04-28 21:51:59-log: Profile: get(project, packages/project-setting.json, layer)
-2020-04-28 21:51:59-log: Profile: get(project, packages/project-setting.json, layer)
-2020-04-28 21:52:01-log: Profile: get(project, packages/preview.json, toolbarConfig)
-2020-04-28 21:52:01-log: Profile: get(project, packages/builder.json, projectSetting.modules.includeModules)
-2020-04-28 21:52:01-log: Profile: get(project, packages/preview.json, previewConfig.devices)
-2020-04-28 21:52:01-log: Profile: get(project, packages/preview.json, previewConfig.userDevices)
-2020-04-28 21:52:01-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:52:01-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
-2020-04-28 21:52:01-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:52:01-log: Profile: get(project, packages/engine.json, 3d.renderPipeline)
-2020-04-28 21:52:01-log: Profile: get(project, packages/builder.json, debug-tools)
-2020-04-28 21:52:03-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
-2020-04-28 21:53:14-log: Profile: get(project, packages/preview.json, toolbarConfig)
-2020-04-28 21:53:14-log: Profile: get(project, packages/builder.json, projectSetting.modules.includeModules)
-2020-04-28 21:53:14-log: Profile: get(project, packages/preview.json, previewConfig.devices)
-2020-04-28 21:53:14-log: Profile: get(project, packages/preview.json, previewConfig.userDevices)
-2020-04-28 21:53:14-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:53:14-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
-2020-04-28 21:53:14-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:53:14-log: Profile: get(project, packages/engine.json, 3d.renderPipeline)
-2020-04-28 21:53:14-log: Profile: get(project, packages/builder.json, debug-tools)
-2020-04-28 21:53:17-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
-2020-04-28 21:53:31-log: Profile: get(project, packages/project-setting.json, general.type_check_level)
-2020-04-28 21:53:32-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-04-28 21:53:32-log: Profile: get(project, packages/preview.json, auto_refresh)
-2020-04-28 21:53:32-log: Profile: get(local, packages/scene.json, gizmos-infos)
-2020-04-28 21:53:32-log: Profile: set(local, packages/scene.json, gizmos-infos) 
- {
-    "iconGizmoSize": 2,
-    "isGridVisible": true,
-    "isIconGizmo3D": false
-}
-2020-04-28 21:53:32-log: Profile: save(local, packages/scene.json)
-2020-04-28 21:53:32-log: Profile: set(local, packages/hierarchy.json, state) 
- {
-    "animationUuid": "",
-    "assetUuid": "eaa52f27-a8f2-45b1-a0a6-8d5ae7b6545e",
-    "expandLevels": [
-        "0",
-        "0_5"
-    ]
-}
-2020-04-28 21:53:32-log: Profile: save(local, packages/hierarchy.json)
-2020-04-28 21:53:32-log: Profile: set(temp, packages/hierarchy-expand.json, eaa52f27-a8f2-45b1-a0a6-8d5ae7b6545e) 
- [
-    "0",
-    "0_5"
-]
-2020-04-28 21:53:32-log: Profile: save(temp, packages/hierarchy-expand.json)
-2020-04-28 21:53:32-log: Profile: get(project, packages/project-setting.json, layer)
-2020-04-28 21:53:32-log: Profile: get(project, packages/project-setting.json, layer)
-2020-04-28 21:53:32-log: Profile: get(project, packages/preview.json, toolbarConfig)
-2020-04-28 21:53:32-log: Profile: get(project, packages/builder.json, projectSetting.modules.includeModules)
-2020-04-28 21:53:32-log: Profile: get(project, packages/preview.json, previewConfig.devices)
-2020-04-28 21:53:32-log: Profile: get(project, packages/preview.json, previewConfig.userDevices)
-2020-04-28 21:53:32-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:53:32-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
-2020-04-28 21:53:32-log: Profile: get(project, packages/project-setting.json, general.designResolution)
-2020-04-28 21:53:32-log: Profile: get(project, packages/engine.json, 3d.renderPipeline)
-2020-04-28 21:53:32-log: Profile: get(project, packages/builder.json, debug-tools)
-2020-04-28 21:53:35-log: Profile: get(project, packages/preview.json, previewConfig.start_scene)
+2020-05-02 01:12:20-log: ui-kit@1.0.0 enable
+2020-05-02 01:12:20-log: ipc@1.0.0 enable
+2020-05-02 01:12:20-log: tester@1.0.0 enable
+2020-05-02 01:12:20-log: preferences@1.0.0 enable
+2020-05-02 01:12:24-log: engine@1.0.0 enable
+2020-05-02 01:12:24-log: asset-db@1.0.0 enable
+2020-05-02 01:12:24-log: console@1.0.0 enable
+2020-05-02 01:12:24-log: scene@1.0.0 enable
+2020-05-02 01:12:24-log: packager@1.0.0 enable
+2020-05-02 01:12:24-log: project-setting@1.0.0 enable
+2020-05-02 01:12:24-log: about@1.0.0 enable
+2020-05-02 01:12:24-log: server@1.0.0 enable
+2020-05-02 01:12:24-log: utils@1.0.0 enable
+2020-05-02 01:12:24-log: profile@1.0.0 enable
+2020-05-02 01:12:24-log: assets@1.0.0 enable
+2020-05-02 01:12:24-log: inspector@1.0.0 enable
+2020-05-02 01:12:24-log: hierarchy@1.0.0 enable
+2020-05-02 01:12:24-log: preview@1.0.0 enable
+2020-05-02 01:12:24-log: animator@1.0.0 enable
+2020-05-02 01:12:25-log: builder@1.0.0 enable
+2020-05-02 01:12:25-log: alipay-mini-game@1.0.0 enable
+2020-05-02 01:12:25-log: android@1.0.0 enable
+2020-05-02 01:12:25-log: baidu-mini-game@1.0.0 enable
+2020-05-02 01:12:25-log: cocos-play@1.0.0 enable
+2020-05-02 01:12:25-log: huawei-mini-game@1.0.0 enable
+2020-05-02 01:12:25-log: ios@1.0.0 enable
+2020-05-02 01:12:25-log: mac@1.0.0 enable
+2020-05-02 01:12:25-log: native@1.0.0 enable
+2020-05-02 01:12:25-log: oppo-mini-game@1.0.0 enable
+2020-05-02 01:12:25-log: vivo-mini-game@1.0.0 enable
+2020-05-02 01:12:25-log: web-desktop@1.0.0 enable
+2020-05-02 01:12:25-log: web-mobile@1.0.0 enable
+2020-05-02 01:12:25-log: wechatgame@1.0.0 enable
+2020-05-02 01:12:25-log: windows@1.0.0 enable
+2020-05-02 01:12:25-log: xiaomi-quick-game@1.0.0 enable
