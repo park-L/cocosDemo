@@ -1,11 +1,9 @@
 {
   "ver": "1.0.8",
   "importer": "animation-clip",
-  "imported": true,
+  "imported": false,
   "uuid": "dd519f31-72a5-465b-9047-7fe3068e6df3",
-  "files": [
-    ".json"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "name": "onestep"

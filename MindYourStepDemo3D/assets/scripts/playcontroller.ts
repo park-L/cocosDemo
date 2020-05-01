@@ -10,6 +10,7 @@ export class playcontroller extends Component {
     // @property
     // serializableDummy = 0;
     @property({type:AnimationComponent})
+    public bodyAnim:AnimationComponent=null;
 
     private _startJump: boolean = false;
     private _jumpStep: number = 0;
@@ -37,13 +38,17 @@ export class playcontroller extends Component {
         if (this._isMoving) {
             return;
         }
+        if(step==1)
+        {this.bodyAnim.play('oneStep')}
+        else if(step==2)
+        {this.bodyAnim.play('twoStep')}
         this._startJump = true;
         this._jumpStep = step;
         this._curJumpTime = 0;
         this._curJumpSpeed = this._jumpStep / this._jumpTime;
         this.node.getPosition(this._curPos);
         Vec3.add(this._targetPos, this._curPos, v3(this._jumpStep, 0, 0));
-
+     
         this._isMoving = true;
     }
 
