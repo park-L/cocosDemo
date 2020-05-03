@@ -1,1 +1,1 @@
-/// <reference path="D:\COCOS3D\CocosCreator3D_1.0.4\resources\resources\3d\engine\bin\.declarations\cc.d.ts"/>
+/// <reference path="D:\Program Files (x86)\cocos3d\CocosCreator3D\resources\resources\3d\engine\bin\.declarations\cc.d.ts"/>

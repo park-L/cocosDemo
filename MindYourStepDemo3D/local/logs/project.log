@@ -1,82 +1,226 @@
-2020-05-03 13:31:35-log: ui-kit@1.0.0 enable
-2020-05-03 13:31:35-log: ipc@1.0.0 enable
-2020-05-03 13:31:35-log: tester@1.0.0 enable
-2020-05-03 13:31:35-log: preferences@1.0.0 enable
-2020-05-03 13:31:37-log: engine@1.0.0 enable
-2020-05-03 13:31:37-log: asset-db@1.0.0 enable
-2020-05-03 13:31:37-log: console@1.0.0 enable
-2020-05-03 13:31:37-log: scene@1.0.0 enable
-2020-05-03 13:31:37-log: packager@1.0.0 enable
-2020-05-03 13:31:37-log: project-setting@1.0.0 enable
-2020-05-03 13:31:37-log: about@1.0.0 enable
-2020-05-03 13:31:37-log: server@1.0.0 enable
-2020-05-03 13:31:37-log: utils@1.0.0 enable
-2020-05-03 13:31:37-log: profile@1.0.0 enable
-2020-05-03 13:31:37-log: assets@1.0.0 enable
-2020-05-03 13:31:37-log: inspector@1.0.0 enable
-2020-05-03 13:31:37-log: hierarchy@1.0.0 enable
-2020-05-03 13:31:37-log: preview@1.0.0 enable
-2020-05-03 13:31:37-log: animator@1.0.0 enable
-2020-05-03 13:31:38-log: builder@1.0.0 enable
-2020-05-03 13:31:38-log: alipay-mini-game@1.0.0 enable
-2020-05-03 13:31:38-log: android@1.0.0 enable
-2020-05-03 13:31:38-log: baidu-mini-game@1.0.0 enable
-2020-05-03 13:31:38-log: cocos-play@1.0.0 enable
-2020-05-03 13:31:38-log: huawei-mini-game@1.0.0 enable
-2020-05-03 13:31:38-log: ios@1.0.0 enable
-2020-05-03 13:31:38-log: mac@1.0.0 enable
-2020-05-03 13:31:38-log: native@1.0.0 enable
-2020-05-03 13:31:38-log: oppo-mini-game@1.0.0 enable
-2020-05-03 13:31:38-log: vivo-mini-game@1.0.0 enable
-2020-05-03 13:31:38-log: web-desktop@1.0.0 enable
-2020-05-03 13:31:38-log: web-mobile@1.0.0 enable
-2020-05-03 13:31:38-log: wechatgame@1.0.0 enable
-2020-05-03 13:31:38-log: windows@1.0.0 enable
-2020-05-03 13:31:38-log: xiaomi-quick-game@1.0.0 enable
-2020-05-03 13:31:42-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
-2020-05-03 13:31:44-error: [Scene] Error: Can not get asset url by uuid "7bb9ab60-c962-4af9-9300-afafd62bd079", the asset may be deleted.
-2020-05-03 13:43:51-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 13:46:35-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 13:46:56-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 13:47:34-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 13:47:39-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 14:52:48-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 14:53:47-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 14:53:54-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:08:26-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:16:01-error: [Asset DB] 脚本 D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts 转换失败：$SyntaxError: D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts: Unexpected token, expected ";" (80:15)
+2020-05-03 23:22:20-log: ui-kit@1.0.0 enable
+2020-05-03 23:22:20-log: ipc@1.0.0 enable
+2020-05-03 23:22:20-log: tester@1.0.0 enable
+2020-05-03 23:22:20-log: preferences@1.0.0 enable
+2020-05-03 23:22:21-log: engine@1.0.0 enable
+2020-05-03 23:22:21-log: asset-db@1.0.0 enable
+2020-05-03 23:22:21-log: console@1.0.0 enable
+2020-05-03 23:22:21-log: scene@1.0.0 enable
+2020-05-03 23:22:21-log: packager@1.0.0 enable
+2020-05-03 23:22:21-log: project-setting@1.0.0 enable
+2020-05-03 23:22:21-log: about@1.0.0 enable
+2020-05-03 23:22:21-log: server@1.0.0 enable
+2020-05-03 23:22:21-log: utils@1.0.0 enable
+2020-05-03 23:22:21-log: profile@1.0.0 enable
+2020-05-03 23:22:21-log: assets@1.0.0 enable
+2020-05-03 23:22:21-log: inspector@1.0.0 enable
+2020-05-03 23:22:21-log: hierarchy@1.0.0 enable
+2020-05-03 23:22:21-log: preview@1.0.0 enable
+2020-05-03 23:22:21-log: animator@1.0.0 enable
+2020-05-03 23:22:21-log: builder@1.0.0 enable
+2020-05-03 23:22:21-log: alipay-mini-game@1.0.0 enable
+2020-05-03 23:22:21-log: android@1.0.0 enable
+2020-05-03 23:22:21-log: baidu-mini-game@1.0.0 enable
+2020-05-03 23:22:21-log: cocos-play@1.0.0 enable
+2020-05-03 23:22:21-log: huawei-mini-game@1.0.0 enable
+2020-05-03 23:22:22-log: ios@1.0.0 enable
+2020-05-03 23:22:22-log: mac@1.0.0 enable
+2020-05-03 23:22:22-log: native@1.0.0 enable
+2020-05-03 23:22:22-log: oppo-mini-game@1.0.0 enable
+2020-05-03 23:22:22-log: vivo-mini-game@1.0.0 enable
+2020-05-03 23:22:22-log: web-desktop@1.0.0 enable
+2020-05-03 23:22:22-log: web-mobile@1.0.0 enable
+2020-05-03 23:22:22-log: wechatgame@1.0.0 enable
+2020-05-03 23:22:22-log: windows@1.0.0 enable
+2020-05-03 23:22:22-log: xiaomi-quick-game@1.0.0 enable
+2020-05-03 23:22:28-warn: [Asset DB] Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+2020-05-03 23:54:46-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 00:02:30-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 00:02:30-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 00:07:53-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 00:08:43-warn: 移动资源失败: 目标地址已经存在相同的文件 
+target: db://assets/animation/oneStep.anim
+2020-05-04 00:10:39-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 00:10:59-warn: [Window] Error: IPC time out
+2020-05-04 00:10:59-error: [Window] Error: IPC time out
+2020-05-04 00:10:59-warn: [Scene] Error: IPC time out
+2020-05-04 00:10:59-warn: [Window] IPC message has been lost, response may timeout.
+2020-05-04 00:10:59-warn: [Scene] call method createKey failed
+2020-05-04 00:10:59-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:11:19-warn: [Window] Error: IPC time out
+2020-05-04 00:11:19-error: [Window] Error: IPC time out
+2020-05-04 00:11:19-warn: [Scene] Error: IPC time out
+2020-05-04 00:11:19-warn: [Window] IPC message has been lost, response may timeout.
+2020-05-04 00:11:37-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:11:57-warn: [Window] Error: IPC time out
+2020-05-04 00:11:57-error: [Window] Error: IPC time out
+2020-05-04 00:11:57-warn: [Scene] Error: IPC time out
+2020-05-04 00:11:57-warn: [Window] IPC message has been lost, response may timeout.
+2020-05-04 00:11:57-warn: [Scene] current edit clip: '9648b2cb-8292-463e-b26e-35f4758d9826' but you want to operate: 'd3718370-f7dd-4487-92dd-f98324d60d6e
+2020-05-04 00:12:00-warn: [Scene] IPC message has been lost, response may timeout.
+2020-05-04 00:12:00-warn: [Scene] IPC message has been lost, response may timeout.
+2020-05-04 00:12:00-warn: [Scene] IPC message has been lost, response may timeout.
+2020-05-04 00:12:00-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:12:01-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:12:16-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 00:12:16-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 00:12:16-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 00:12:36-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:19:54-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:19:54-warn: [Scene] call method moveKeys failed
+2020-05-04 00:20:53-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:20:53-warn: [Scene] call method changeSample failed
+2020-05-04 00:20:59-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:20:59-warn: [Scene] call method changeSample failed
+2020-05-04 00:21:18-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:18-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:20-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:20-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:20-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:20-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:20-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:20-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:21-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:21-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:21-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:21-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:21-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:21-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:21-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:21-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:21-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:21-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:21-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:21-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:21-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:21-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:22-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:22-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:23-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:23-warn: [Scene] call method changeSample failed
+2020-05-04 00:21:24-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:24-warn: [Scene] call method changeSpeed failed
+2020-05-04 00:21:26-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:21:26-warn: [Scene] call method changeSample failed
+2020-05-04 00:39:00-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:00-warn: [Scene] call method moveKeys failed
+2020-05-04 00:39:02-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:02-warn: [Scene] call method moveKeys failed
+2020-05-04 00:39:05-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:05-warn: [Scene] call method moveKeys failed
+2020-05-04 00:39:17-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:17-warn: [Scene] call method createKey failed
+2020-05-04 00:39:24-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:24-warn: [Scene] call method createKey failed
+2020-05-04 00:39:32-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:32-warn: [Scene] call method moveKeys failed
+2020-05-04 00:39:33-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:33-warn: [Scene] call method moveKeys failed
+2020-05-04 00:39:37-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:37-warn: [Scene] call method moveKeys failed
+2020-05-04 00:39:48-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:48-warn: [Scene] call method createKey failed
+2020-05-04 00:39:48-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:48-warn: [Scene] call method createKey failed
+2020-05-04 00:39:48-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:48-warn: [Scene] call method createKey failed
+2020-05-04 00:39:49-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:49-warn: [Scene] call method createKey failed
+2020-05-04 00:39:49-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:39:49-warn: [Scene] call method createKey failed
+2020-05-04 00:40:02-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:40:02-warn: [Scene] call method removeKey failed
+2020-05-04 00:40:03-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:40:03-warn: [Scene] call method removeKey failed
+2020-05-04 00:40:04-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:40:04-warn: [Scene] call method removeKey failed
+2020-05-04 00:40:08-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:40:08-warn: [Scene] call method moveKeys failed
+2020-05-04 00:40:13-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:40:13-warn: [Scene] call method createKey failed
+2020-05-04 00:41:49-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:41:49-warn: [Scene] call method moveKeys failed
+2020-05-04 00:41:49-warn: [Scene] call method moveKeys failed
+2020-05-04 00:41:51-log: [Window] 分量轨道无法单独删除!
+2020-05-04 00:42:01-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:42:01-warn: [Scene] call method removeProp failed
+2020-05-04 00:42:07-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:42:07-warn: [Scene] call method clearKeys failed
+2020-05-04 00:42:25-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:42:25-warn: [Scene] call method removeKey failed
+2020-05-04 00:42:25-warn: [Scene] call method removeKey failed
+2020-05-04 00:42:25-warn: [Scene] call method removeKey failed
+2020-05-04 00:42:25-warn: [Scene] call method removeKey failed
+2020-05-04 00:42:33-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:42:33-warn: [Scene] call method createKey failed
+2020-05-04 00:42:33-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:42:33-warn: [Scene] call method createKey failed
+2020-05-04 00:42:43-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:42:43-warn: [Scene] call method moveKeys failed
+2020-05-04 00:42:43-warn: [Scene] call method moveKeys failed
+2020-05-04 00:42:59-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:42:59-warn: [Scene] call method createKey failed
+2020-05-04 00:43:04-error: [Scene] TypeError: Converting circular structure to JSON
+2020-05-04 00:43:04-warn: [Scene] call method removeKey failed
+2020-05-04 00:44:29-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:44:56-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:44:58-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:45:03-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\oneStep.anim) saved
+2020-05-04 00:45:30-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 00:45:41-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 00:45:51-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 00:45:56-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 00:46:01-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 01:01:40-error: [Asset DB] 脚本 D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts 转换失败：$SyntaxError: D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts: Unexpected token (137:82)
 
-  78 | 
-  79 |         }
-> 80 |         init() {
-     |                ^
-  81 | 
-  82 |         }
-  83 |         this._curState = value; [uuid: 77bea0c6-0130-459d-bfd0-fd33cf4e6773]
-2020-05-03 15:17:18-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:24:00-error: [Asset DB] 脚本 D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts 转换失败：$SyntaxError: D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts: Unexpected token, expected "," (88:43)
+  135 |             }
+  136 |         }
+> 137 |     } // update (deltaTime: number) { // // Your update function goes here. // } }
+      |                                                                                   ^ [uuid: 77bea0c6-0130-459d-bfd0-fd33cf4e6773]
+2020-05-04 01:01:41-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 01:01:43-error: [preview-error]load http://localhost:7456/scripting/assets/scripts/gameManager.js failed
+2020-05-04 01:02:13-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\animation\twoStep.anim) saved
+2020-05-04 01:02:22-error: [Scene] Script "77beaDGATBFnb/Q/TPPTmdz" attached to "gameManager" is missing or invalid. Detailed information:
+Script UUID: "77bea0c6-0130-459d-bfd0-fd33cf4e6773"
+Class ID: "77beaDGATBFnb/Q/TPPTmdz"
 
-  86 |         this.generateRoad();
-  87 |         this.playerCtrl.setInputActive(false);
-> 88 |         this.playerCtrl.node.setPosition(ve;
-     |                                            ^
-  89 |     }
-  90 |     generateRoad() {
-  91 |         this.node.removeAllChildren(); [uuid: 77bea0c6-0130-459d-bfd0-fd33cf4e6773]
-2020-05-03 15:24:31-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:24:34-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:24:55-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:24:56-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:25:27-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:25:27-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:25:27-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:25:28-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:25:28-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:25:29-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:27:41-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:30:51-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:30:52-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:30:53-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:30:54-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:30:55-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
-2020-05-03 15:31:22-info: asset(D:\cocos3dProject\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:02:48-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:02:50-error: [preview-error]load http://localhost:7456/scripting/assets/scripts/gameManager.js failed
+2020-05-04 01:03:21-error: [Asset DB] 脚本 D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts 转换失败：$SyntaxError: D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts: Unexpected token (139:81)
+
+  137 |         }
+  138 |     }
+> 139 |      // update (deltaTime: number) { // // Your update function goes here. // } }
+      |                                                                                  ^ [uuid: 77bea0c6-0130-459d-bfd0-fd33cf4e6773]
+2020-05-04 01:05:51-error: [Asset DB] 脚本 D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts 转换失败：$SyntaxError: D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts: Unexpected token (120:80)
+
+  118 |         }
+  119 |     }
+> 120 |     // update (deltaTime: number) { // // Your update function goes here. // } }
+      |                                                                                 ^ [uuid: 77bea0c6-0130-459d-bfd0-fd33cf4e6773]
+2020-05-04 01:05:51-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:05:53-error: [preview-error]load http://localhost:7456/scripting/assets/scripts/gameManager.js failed
+2020-05-04 01:05:58-error: [Asset DB] 脚本 D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts 转换失败：$SyntaxError: D:\project\cocosDemo\MindYourStepDemo3D\assets\scripts\gameManager.ts: Unexpected token (137:80)
+
+  135 |         }
+  136 |     }
+> 137 |     // update (deltaTime: number) { // // Your update function goes here. // } }
+      |                                                                                 ^ [uuid: 77bea0c6-0130-459d-bfd0-fd33cf4e6773]
+2020-05-04 01:05:59-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:06:01-error: [preview-error]load http://localhost:7456/scripting/assets/scripts/gameManager.js failed
+2020-05-04 01:06:39-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:06:44-error: [preview-error]Uncaught TypeError: Cannot read property 'checkResult' of undefined in http://localhost:7456/scripting/assets/scripts/gameManager.js
+2020-05-04 01:07:24-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:07:25-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:07:32-error: [preview-error]Uncaught TypeError: Cannot read property 'checkResult' of undefined in http://localhost:7456/scripting/assets/scripts/gameManager.js
+2020-05-04 01:08:19-error: [preview-error]Uncaught TypeError: Cannot read property 'checkResult' of undefined in http://localhost:7456/scripting/assets/scripts/gameManager.js
+2020-05-04 01:09:25-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:09:31-error: [preview-error]Uncaught TypeError: Cannot read property 'checkResult' of undefined in http://localhost:7456/scripting/assets/scripts/gameManager.js
+2020-05-04 01:12:51-error: [preview-error]Uncaught TypeError: Cannot read property 'checkResult' of undefined in http://localhost:7456/scripting/assets/scripts/gameManager.js
+2020-05-04 01:46:31-error: [preview-error]Uncaught TypeError: Cannot read property 'checkResult' of undefined in http://localhost:7456/scripting/assets/scripts/gameManager.js
+2020-05-04 01:46:44-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:50:58-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:51:38-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 01:53:23-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 02:07:34-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved
+2020-05-04 02:10:47-info: asset(D:\project\cocosDemo\MindYourStepDemo3D\assets\scenes\main.scene) saved

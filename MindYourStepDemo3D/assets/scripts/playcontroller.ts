@@ -30,12 +30,13 @@ export class playcontroller extends Component {
     private _startJump: boolean = false;
     private _jumpStep: number = 0;
     private _curJumpTime: number = 0;
-    private _jumpTime: number = 0.1;
+    private _jumpTime: number =0.1;
     private _curJumpSpeed: number = 0;
     private _curPos: Vec3 = v3();
     private _deltaPos: Vec3 = v3(0, 0, 0);
     private _targetPos: Vec3 = v3();
     private _isMoving = false;
+    private _curMoveIndex=0;
     start() {
         // Your initialization goes here.
         //systemEvent.on(SystemEvent.EventType.MOUSE_UP,this.onMouseUp,this)
@@ -73,12 +74,15 @@ export class playcontroller extends Component {
         Vec3.add(this._targetPos, this._curPos, v3(this._jumpStep, 0, 0));
 
         this._isMoving = true;
+        this._curMoveIndex+=step;
     }
 
 
     onOnceJumpEnd() {
         this._isMoving = false;
+        this.node.emit('jumpEnd',this._curMoveIndex);
     }
+
     update(deltaTime: number) {
         if (this._startJump) {
             this._curJumpTime += deltaTime;
@@ -95,5 +99,8 @@ export class playcontroller extends Component {
                 this.node.setPosition(this._curPos);
             }
         }
+    }
+    reset(){
+        this._curMoveIndex=0;
     }
 }
