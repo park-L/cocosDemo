@@ -4,8 +4,13 @@ import {
     Node,
     Prefab,
     CCInteger,
-    instantiate
+    instantiate,
+    game,
+    v3
 } from "cc";
+import {
+    playcontroller
+} from "./playcontroller";
 const {
     ccclass,
     property
@@ -14,6 +19,11 @@ const {
 enum blockType {
     bt_None,
     bt_Stone
+}
+enum gameState {
+    gs_Init,
+    gs_Playing,
+    sg_End
 }
 
 @ccclass("gameManager")
@@ -34,10 +44,51 @@ export class gameManager extends Component {
     })
     public roadLength: Number = 50;
 
+
+    @property({
+        type: playcontroller
+    })
+    public playerCtrl: playcontroller = null;
+
+    @property({
+        type: Node
+    })
+    public startMenu: Node = null;
+
+    private _curState: gameState = gameState.gs_Init;
     private _road: number[] = [];
 
     start() {
+        this.curState = gameState.gs_Init;
+
+    }
+
+    set curState(value: gameState) {
+        switch (value) {
+            case gameState.gs_Init:
+                this.init();
+                break;
+            case gameState.gs_Playing:
+                this.startMenu.active = false;
+                setTimeout(() => {
+                    this.playerCtrl.setInputActive(true);
+                }, 0.1);
+                break;
+            case gameState.sg_End:
+                break;
+
+        }
+
+        this._curState = value;
+    }
+    init() {
+        this.startMenu.active = true;
         this.generateRoad();
+        this.playerCtrl.setInputActive(false);
+        this.playerCtrl.node.setPosition(v3());
+    }
+    onStartuttonClicked() {
+        this.curState = gameState.gs_Playing;
     }
 
     generateRoad() {
@@ -52,10 +103,9 @@ export class gameManager extends Component {
         }
         for (let j = 0; j < this._road.length; j++) {
             let block: Node = this.spawnBlockByType(this._road[j]);
-            if (block)
-            {
+            if (block) {
                 this.node.addChild(block);
-            block.setPosition(j, -1.5, 0);
+                block.setPosition(j, -1.5, 0);
             }
 
         }

@@ -1,3 +1,5 @@
 {
-    "resolveMap": {}
+    "resolveMap": {
+        "./playcontroller": "D:/cocos3dProject/cocosDemo/MindYourStepDemo3D/assets/scripts/playcontroller.ts"
+    }
 }

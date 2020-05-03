@@ -1,5 +1,18 @@
-import { _decorator, Component, Node, systemEvent, SystemEvent,EventMouse ,Vec3,v3, AnimationComponent} from "cc";
-const { ccclass, property } = _decorator;
+import {
+    _decorator,
+    Component,
+    Node,
+    systemEvent,
+    SystemEvent,
+    EventMouse,
+    Vec3,
+    v3,
+    AnimationComponent
+} from "cc";
+const {
+    ccclass,
+    property
+} = _decorator;
 
 @ccclass("playcontroller")
 export class playcontroller extends Component {
@@ -9,8 +22,10 @@ export class playcontroller extends Component {
     /* use `property` decorator if your want the member to be serializable */
     // @property
     // serializableDummy = 0;
-    @property({type:AnimationComponent})
-    public bodyAnim:AnimationComponent=null;
+    @property({
+        type: AnimationComponent
+    })
+    public bodyAnim: AnimationComponent = null;
 
     private _startJump: boolean = false;
     private _jumpStep: number = 0;
@@ -21,13 +36,20 @@ export class playcontroller extends Component {
     private _deltaPos: Vec3 = v3(0, 0, 0);
     private _targetPos: Vec3 = v3();
     private _isMoving = false;
-    start () {
+    start() {
         // Your initialization goes here.
-        systemEvent.on(SystemEvent.EventType.MOUSE_UP,this.onMouseUp,this)
+        //systemEvent.on(SystemEvent.EventType.MOUSE_UP,this.onMouseUp,this)
+    }
+    setInputActive(active: boolean) {
+        if (active) {
+            systemEvent.on(SystemEvent.EventType.MOUSE_UP, this.onMouseUp, this)
+        } else {
+            systemEvent.off(SystemEvent.EventType.MOUSE_UP, this.onMouseUp, this)
+        }
     }
 
-    onMouseUp(event:EventMouse)
-    {
+
+    onMouseUp(event: EventMouse) {
         if (event.getButton() === 0) {
             this.jumpByStep(1);
         } else if (event.getButton() === 2) {
@@ -38,25 +60,26 @@ export class playcontroller extends Component {
         if (this._isMoving) {
             return;
         }
-        if(step==1)
-        {this.bodyAnim.play('oneStep')}
-        else if(step==2)
-        {this.bodyAnim.play('twoStep')}
+        if (step == 1) {
+            this.bodyAnim.play('oneStep')
+        } else if (step == 2) {
+            this.bodyAnim.play('twoStep')
+        }
         this._startJump = true;
         this._jumpStep = step;
         this._curJumpTime = 0;
         this._curJumpSpeed = this._jumpStep / this._jumpTime;
         this.node.getPosition(this._curPos);
         Vec3.add(this._targetPos, this._curPos, v3(this._jumpStep, 0, 0));
-     
+
         this._isMoving = true;
     }
 
-    
+
     onOnceJumpEnd() {
         this._isMoving = false;
     }
-    update (deltaTime: number) {
+    update(deltaTime: number) {
         if (this._startJump) {
             this._curJumpTime += deltaTime;
             if (this._curJumpTime > this._jumpTime) {

@@ -1,1 +1,12 @@
-{}
+{
+  "state": {
+    "expandUuids": [
+      "db://assets",
+      "6b4bf1c8-ba17-48d0-8c8b-66fe83329abb",
+      "f086c971-e909-442d-b840-159a18cfcc44",
+      "a869d945-0c3a-4b8d-8110-7a0331f00035",
+      "7e7e618f-fcc6-4fb3-accd-ad6aeb00865d"
+    ],
+    "sortType": "name"
+  }
+}
