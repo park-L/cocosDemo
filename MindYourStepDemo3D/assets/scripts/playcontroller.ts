@@ -7,7 +7,8 @@ import {
     EventMouse,
     Vec3,
     v3,
-    AnimationComponent
+    AnimationComponent,
+    SkeletalAnimationComponent
 } from "cc";
 const {
     ccclass,
@@ -26,6 +27,9 @@ export class playcontroller extends Component {
         type: AnimationComponent
     })
     public bodyAnim: AnimationComponent = null;
+
+@property({type:SkeletalAnimationComponent})
+public cocosAnim:SkeletalAnimationComponent=null;
 
     private _startJump: boolean = false;
     private _jumpStep: number = 0;
@@ -75,11 +79,14 @@ export class playcontroller extends Component {
 
         this._isMoving = true;
         this._curMoveIndex+=step;
+       this.cocosAnim.getState('cocos_anim_jump').speed=3;
+       this.cocosAnim.play('cocos_anim_jump');
     }
 
 
     onOnceJumpEnd() {
         this._isMoving = false;
+        this.cocosAnim.play('cocos_anim_idel');
         this.node.emit('jumpEnd',this._curMoveIndex);
     }
 
